@@ -14,7 +14,7 @@ PHONE_NUMBER="$2"
 
 
 if ! [[ "$PHONE_NUMBER" =~ ^[0-9]+$ ]]; then
-    echo "입력값 오류 : 전화번호는 숫자만 입력 가능합니다."
+    echo "입력값 오류 : 전화번호는 숫자만 입력이 가능합니다."
     exit 1
 fi
 
